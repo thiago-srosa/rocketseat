@@ -1,0 +1,8 @@
+version: "3"
+services:
+  front:
+    build:
+      context: ./front
+    ports:
+      #[Port access from Browser] : [Port exposed from the container]
+      - "5173:5173"
